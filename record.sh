@@ -1,0 +1,1 @@
+rosbag record /[TODO:camera] --bz2
