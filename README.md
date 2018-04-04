@@ -12,3 +12,10 @@ export PYTHONPATH=$PYTHONPATH:/home/[USERNAME]/git/models/research/:/home/[USERN
 
 
 You want to install the models repo into /home/[USERNAME]/git/
+
+
+# How to install Zed camera driver
+
+Driver is from here: https://github.com/stereolabs/zed-ros-wrapper
+
+Ensure that you pick a release (or pull latest version) that supports the Zed SDK you have installed. Each Zed SDK version requires a specific CUDA version. Changing the version of CUDA requires flashing the relevant JetPack (Full OS reinstall!!!)
